@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.1",
+  "runtime.plugin": "<insert-your-Teardown/data-dir>/td_vscode_plugin.lua",
+  "workspace.library": [
+    "<insert-your-Teardown/data-dir>/script_defs.lua",
+    "<insert-your-Teardown/data-dir>/voxscript_defs.lua"
+  ]
+}
