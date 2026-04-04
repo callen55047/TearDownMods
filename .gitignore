@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional local tooling
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Teardown / modding (uncomment or extend when you know local build outputs)
+# *.dll
+# build/
+# dist/

@@ -1,0 +1,12 @@
+---
+description: TearDown mod repo — read AGENTS.md; update it when structure changes
+alwaysApply: true
+---
+
+# TearDown Mods repository
+
+- **Canonical context** — Read `AGENTS.md` at the repository root for directory map, conventions, and tech assumptions.
+- **Maintenance** — If you change top-level layout, mod/idea organization, or agent-relevant conventions, update `AGENTS.md` in the same session.
+- **`ideas/`** — Design markdown only; descriptive filenames; **co-op / multiplayer first** unless a doc says otherwise.
+- **`mods/`** — One folder per mod; Lua + assets + manifest; readme for install/version when needed; design for **co-op** by default.
+- **Edits** — Stay scoped; no unrelated refactors.
