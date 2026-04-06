@@ -1,13 +1,53 @@
-# OS
+# macOS
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
 
-# Editors
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux (occasional dev machines)
+*~
+.directory
+
+# Editors — JetBrains / IntelliJ / Android Studio / Rider
 .idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Editors — VS Code
 .vscode/
+*.code-workspace
+
+# Editors — Cursor (local workspace data; keep .cursor/rules/ versioned)
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+
+# Editors — Vim / Neovim
 *.swp
 *.swo
-*~
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Editors — Emacs
+\#*\#
+.\#*
 
 # Optional local tooling
 .env
