@@ -27,6 +27,7 @@ Do that when you:
 | **`AGENTS.md`** (this file) | Repo map, conventions, and maintenance rules for agents. |
 | **`ideas/`** | Design documents for mod concepts. Not required to match shipped mods. Use descriptive `.md` names (e.g. `space-station.md`). |
 | **`mods/`** | Runnable Teardown mod packages. **One subdirectory per mod** (e.g. `mods/my-mod/`) with manifest, Lua, assets, and a local readme when helpful. |
+| **`SETUP.md`** | Lua / editor setup: LuaLS extension, `.luarc.json` from [`.luarc.json.example`](.luarc.json.example), OS-specific Teardown `data` paths (Windows documented; Linux TBD). |
 | **`.cursor/rules/`** | Cursor-only rule snippets; keep them aligned with this file. |
 
 Anything else at the repo root (e.g. `README.md`, `.gitignore`) is human-facing or tooling support; if it becomes relevant to **how agents should navigate or edit** the project, reflect that here.
@@ -46,6 +47,7 @@ Anything else at the repo root (e.g. `README.md`, `.gitignore`) is human-facing 
 
 - **Teardown** mod gameplay logic is primarily **Lua**.
 - Document **Teardown version** assumptions when APIs or layout differ by release.
+- **Lua in the editor:** See [`SETUP.md`](SETUP.md) for LuaLS (`sumneko.lua`) and `.luarc.json` pointing at the game’s `data` API stubs.
 
 ---
 

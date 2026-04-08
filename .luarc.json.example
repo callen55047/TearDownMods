@@ -4,7 +4,7 @@
   "runtime.plugin": "<insert-your-Teardown/data-dir>/td_vscode_plugin.lua",
   "workspace.library": [
     "<insert-your-Teardown/data-dir>/script_defs.lua",
-    "<insert-your-Teardown/data-dir>/voxscript_defs.lua"
+    "<insert-your-Teardown/data-dir>/voxscript_defs.lua",
     "<insert-your-Teardown/data-dir>/script/include"
   ]
 }
